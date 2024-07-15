@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css" />
+  </head>
+  <body>
+    <header id="myHeader">Calculator</header>
+    <div id="myCalc">
+      <input id="display" class="myDisplay" readonly />
+      <button id="my0" class="myBtn" onclick="buttonClicked('0')">0</button>
+      <button id="my1" class="myBtn" onclick="buttonClicked('1')">1</button>
+      <button id="my2" class="myBtn" onclick="buttonClicked('2')">2</button>
+      <button id="my3" class="myBtn" onclick="buttonClicked('3')">3</button>
+      <button id="my4" class="myBtn" onclick="buttonClicked('4')">4</button>
+      <button id="my5" class="myBtn" onclick="buttonClicked('5')">5</button>
+      <button id="my6" class="myBtn" onclick="buttonClicked('6')">6</button>
+      <button id="my7" class="myBtn" onclick="buttonClicked('7')">7</button>
+      <button id="my8" class="myBtn" onclick="buttonClicked('8')">8</button>
+      <button id="my9" class="myBtn" onclick="buttonClicked('9')">9</button>
+      <button id="myFloat" class="myBtn" onclick="buttonClicked('.')">.</button>
+      <button id="myAdd" class="myBtn" onclick="buttonClicked('+')">+</button>
+      <button id="mySub" class="myBtn" onclick="buttonClicked('-')">-</button>
+      <button id="myMul" class="myBtn" onclick="buttonClicked('*')">*</button>
+      <button id="myDiv" class="myBtn" onclick="buttonClicked('/')">/</button>
+      <button id="myEqual" class="myBtn" onclick="buttonClicked('=')">=</button>
+      <button id="myClr" class="myBtn" onclick="buttonClicked('AC')">AC</button>
+      <button id="myDel" class="myBtn" onclick="buttonClicked('DEL')">
+        DEL
+      </button>
+    </div>
+
+    <script src="Calculator.js"></script>
+  </body>
+</html>
